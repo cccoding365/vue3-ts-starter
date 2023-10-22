@@ -44,7 +44,7 @@ pnpm install eslint eslint-plugin-vue eslint-config-prettier prettier eslint-plu
 
 **配置相应的 script 命令：**
 
-```json
+```jsonc
 // package.json
 
 script: {
@@ -139,7 +139,7 @@ module.exports = {
 
 **配置相应的 script 命令：**
 
-```json
+```jsonc
 // package.json
 
 script: {
@@ -266,7 +266,7 @@ components.d.ts
 
 **配置相应的 script 命令：**
 
-```json
+```jsonc
 // package.json
 
 script: {
@@ -276,7 +276,7 @@ script: {
 
 **配置 tsconfig.json**
 
-```json
+```jsonc
 // tsconfig.json
 
 {
@@ -328,7 +328,7 @@ git init
 
 **配置 script 命令：**
 
-```json
+```jsonc
 // package.json
 
 script: {
@@ -350,7 +350,7 @@ npx husky add .husky/pre-commit "npx lint-staged"
 
 **对该钩子进行相关的配置：**
 
-```json
+```jsonc
 // package.json
 
 "lint-staged": {
@@ -459,7 +459,7 @@ extends: [
 
 **配置 script 命令：**
 
-```json
+```jsonc
 // package.json
 
 script: {
@@ -484,7 +484,7 @@ plugins: [...,stylelitPlugin()],
 
 **lint-staged 相关配置：**
 
-```json
+```jsonc
 // package.json
 
 "lint-staged": {
@@ -533,7 +533,7 @@ module.exports = {
 
 **在 package.json 文件中配置对应的脚本：**
 
-```json
+```jsonc
 "build:pre": "vue-tsc --noEmit && vite build --mode staging",
 "build:prod": "vue-tsc --noEmit && vite build --mode production"
 ```
